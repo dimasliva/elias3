@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "UncialAntiqua";
+  src: url("./fonts/UncialAntiqua.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "IBMPlexSans", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #0e444f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 99px;
+  background-color: #b2d6dd;
+  padding: 0 30px;
+}
+.navbar .burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 44px;
+}
+.navbar .burger .line {
+  height: 5px;
+  background-color: #0e444f;
+  width: 100px;
+}
+.navbar .logo {
+  color: #0e444f;
+  font-size: 35px;
+  font-family: "UncialAntiqua", sans-serif;
+}
+.logo_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.logo_wrapper .logo {
+  font-family: "UncialAntiqua", sans-serif;
+  color: #f4ce83;
+  font-size: 190px;
+  margin-top: 200px;
+  text-align: center;
+}
+.section_one {
+  position: relative;
+  padding: 0 60px;
+}
+.Group176,
+.Group238,
+.Group239,
+.Group248,
+.Group238,
+.Group249,
+.Vector,
+.Vector2,
+.Vector3,
+.Group415,
+.Group417,
+.Group240 {
+  position: absolute;
+  z-index: -1;
+}
+.Vector {
+  right: 413px;
+  top: 54.82px;
+}
+.Vector2 {
+  left: 127.85px;
+  top: 423.17px;
+}
+.Vector3 {
+  left: 634px;
+  top: 745.93px;
+  rotate: 42.57deg;
+}
+.Group417 {
+  right: 200px;
+  top: 696.7px;
+}
+.Group176 {
+  left: 46.15px;
+  top: 237.6px;
+}
+.Group415 {
+  left: 87.15px;
+  top: 698.05px;
+}
+.Group249 {
+  left: 256.1px;
+  top: 704.3px;
+}
+.Group239 {
+  left: 792.85px;
+  top: 679.6px;
+}
+.Group238 {
+  right: 0px;
+  top: 0px;
+}
+.Group248 {
+  width: 100%;
+  right: 0px;
+  top: 850.4px;
+}
+.Group240 {
+  width: 70%;
+  right: 0px;
+  top: 1059.4px;
+}
+.description_wrapper {
+  margin-top: 300px;
+  color: white;
+  position: relative;
+}
+.description_bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 68, 79, 0.7); /* сделаем фон полупрозрачным */
+  filter: blur(50px);
+}
+.description {
+  font-size: 28.33px;
+  width: 814px;
+}
+.description .two {
+  margin-top: 50px;
+  width: 427px;
+}
+.description .more {
+  margin-top: 60px;
+  color: #f4ce83;
+  font-size: 41.31px;
+  text-decoration: underline;
+}
