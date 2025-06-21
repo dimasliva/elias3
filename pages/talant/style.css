@@ -10,7 +10,7 @@
 }
 body {
   font-family: "Source Code Pro", sans-serif;
-  background-image: url("./assets/images/background.jpg");
+  background-image: url("./assets/svgs/background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 0%;
