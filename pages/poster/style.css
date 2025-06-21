@@ -35,11 +35,16 @@
   margin-bottom: 80px;
 }
 .section_poster .poster_wrapper {
-  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
   position: relative;
+  margin-bottom: 30px;
+}
+.section_poster .poster_wrapper .one,
+.section_poster .poster_wrapper .two {
+  height: 535px;
 }
 .section_poster .poster_wrapper .arrow_btn {
   background-color: #1f6f7f;
@@ -56,11 +61,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 827px;
-  height: 780px;
 }
-
-.section_poster .poster_wrapper .poster .download {
+.section_poster .poster_wrapper .poster .img_poster {
+  height: 700px;
+}
+.section_poster .download {
+  position: relative;
   background-color: #1f6f7f;
   border: 0px;
   border-radius: 25px;
@@ -70,8 +76,11 @@
   padding: 6px 14px;
   cursor: pointer;
   text-decoration: none;
+  z-index: 1;
+  width: fit-content;
+  margin: 0 auto;
 }
-.section_poster .poster_wrapper .poster .download .text {
+.section_poster .download .text {
   color: #ffffff;
   font-size: 30px;
 }
